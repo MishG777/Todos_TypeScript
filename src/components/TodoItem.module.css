@@ -4,4 +4,21 @@
   padding: 1rem;
   background-color: #f7f5ef;
   list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item button {
+  background-color: #ebb002;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item button:hover {
+  background-color: #ebc002;
 }
